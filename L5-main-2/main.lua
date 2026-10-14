@@ -6,7 +6,7 @@ function setup()
   windowTitle("Coding Challenge")
 
 
-  background("midnightblue")
+  background(255, 255, 255)
   strokeWeight(5)
 
 
@@ -37,6 +37,6 @@ function keyPressed()
   --Clear Screen
   if (key == 'c')
   then clear()
-  background("midnightblue")
+  background(255, 255, 255)
   end
 end
